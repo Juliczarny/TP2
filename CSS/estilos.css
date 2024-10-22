@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Londrina+Sketch&family=Poppins:wght@400;600&display=swap');
+
+
+  
+body {
+
+    font-family: "Afacad Flux", sans-serif;
+    color: #000000;
+  font-weight: 350;
+
+}
+
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 50px;
+    font-size: 3.2em;
+    font-family: "Londrina Sketch", sans-serif;
+    text-transform: uppercase;
+    color: rgb(37, 94, 49);
+
+}
+
+p {
+    font-size: 1.5em; 
+    line-height: 1.4; 
+    padding: 0 20px; 
+    width: 80%;
+    text-align: left;
+}
+
+
+h2 {
+    font-size: 1.75em; 
+    margin-bottom: 40px; 
+    text-align:left; 
+    text-decoration: underline;
+    font-family: "Poppins", sans-serif
+}
+
+
+main,
+header {
+    width: 83.33%;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  main>div {
+
+    width: 100%;
+    margin-bottom: 91px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+  [src="imagenes/img1.jpg" ] {
+    width: 80%;
+    display: block;
+    transition: all 2s 1s linear;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(26, 92, 49);
+  }
+  [src="imagenes/img2.png" ] {
+    width: 80%;
+    display: block;
+    transition: all 2s 1s linear;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(26, 92, 49);
+  }
+  [src="imagenes/img3.jpg" ] {
+    width: 80%;
+    display: block;
+    transition: all 2s 1s linear;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(26, 92, 49);
+  }
+
+div:hover {   filter: drop-shadow(4px 4px rgb(112, 106, 106)); }
+
+  
+[src="imagenes/imagen-principal.jpg"] {
+    width: 70%;
+    display: block;
+    border-radius: 20px;
+    transition: all 2s 1s linear;
+
+
+}
+
+[src="imagenes/imagen-principal.jpg"]:hover {
+
+    filter: grayscale(100%);
+
+}
+
+header a {
+
+    background-color: rgb(178, 240, 176);
+    display:flex;
+    width: 100px;
+    margin-top: 30px;
+    transition-property: background-color, width;
+    transition-duration: 3s, 2s;
+    transition-delay: 1s,3s;
+    transition-timing-function: linear;
+    border-radius: 9px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(26, 92, 49);
+    padding: 8px 8px;
+    box-sizing: border-box;
+}
+
+
+header a:hover {
+    text-decoration: underline;
+    background-color: rgb(146, 146, 146);
+    color: rgb(255, 255, 255);
+    width: 500px;
+}
+
+
+main,
+header,
+[src="imagenes/imagen-principal.jpg"] {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+  section>div {
+
+    width: 100%;
+    margin-bottom: 91px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+  [src="imagenes/img4.jpg" ] {
+    width: 90%;
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(91, 158, 81);
+
+  }
+  [src="imagenes/img5.jpg" ] {
+    width: 90%;
+    display: block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(91, 158, 81);
+  }
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(134, 134, 134);
+}
+
+@media(max-width:768px) {
+
+    div {
+        width: 80%;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+
+    * {
+        line-height: 20px !important;
+    }
+
+h1 {
+  line-height: 30px!important;
+}
+
+
+}
